@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&duration=2400&pause=700&color=58A6FF&center=true&vCenter=true&width=900&lines=FiveM+vRP+systems+and+server+automation;Discord+Bots%2C+APIs+and+operational+tools;Clean+interfaces%2C+organized+repos+and+real+delivery" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&duration=2400&pause=700&color=58A6FF&center=true&vCenter=true&width=900&lines=FiveM+vRP+architecture+and+server+automation;Discord+Bots%2C+APIs+and+operational+systems;Performance%2C+reliability+and+strategic+execution" alt="Typing animation" />
 </p>
 
 <br />
@@ -17,32 +17,51 @@
 ## Professional Profile
 
 ```txt
-CEO | JavaScript Developer
-FiveM (vRP) | Discord Bots | APIs | Automation
+CEO | JavaScript Developer | Systems Builder
+FiveM (vRP) | Discord Bots | APIs | Automation | Operational Tools
 ```
+
+<p align="center">
+  I build technical solutions with a business mindset: stable systems, automated operations,
+  scalable server logic and tools designed to reduce manual work and increase control.
+</p>
+
+<p align="center">
+  My focus is not just writing scripts. I structure ecosystems: FiveM resources, Discord operations,
+  API integrations, internal tooling and interfaces that support real communities and production routines.
+</p>
 
 <table>
   <tr>
     <td width="50%">
-      <h3 align="center">FiveM vRP</h3>
-      <p align="center">Server systems, resources, scripts and workflow automation for roleplay environments.</p>
+      <h3 align="center">FiveM vRP Engineering</h3>
+      <p align="center">Development of server logic, resources, automations and gameplay systems for roleplay environments.</p>
     </td>
     <td width="50%">
-      <h3 align="center">Discord Bots</h3>
-      <p align="center">Command systems, integrations, moderation flows and community automation.</p>
+      <h3 align="center">Discord Operations</h3>
+      <p align="center">Bots, command structures, moderation workflows, integrations and community management automation.</p>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <h3 align="center">APIs & Automation</h3>
-      <p align="center">Internal tools, REST integrations, data flows and practical automations.</p>
+      <h3 align="center">APIs & Internal Tools</h3>
+      <p align="center">REST integrations, operational dashboards, data flows and tools built to support decision-making.</p>
     </td>
     <td width="50%">
-      <h3 align="center">Interfaces</h3>
-      <p align="center">Dashboards, documentation pages and clean web presentation layers.</p>
+      <h3 align="center">Performance & Reliability</h3>
+      <p align="center">Optimization mindset focused on maintainability, uptime, predictable behavior and scalable execution.</p>
     </td>
   </tr>
 </table>
+
+## Executive Strengths
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Leadership-0D1117?style=for-the-badge&logo=target&logoColor=00D4FF" alt="Leadership" />
+  <img src="https://img.shields.io/badge/System%20Architecture-0D1117?style=for-the-badge&logo=serverless&logoColor=58A6FF" alt="System Architecture" />
+  <img src="https://img.shields.io/badge/Automation%20Strategy-0D1117?style=for-the-badge&logo=githubactions&logoColor=238636" alt="Automation Strategy" />
+  <img src="https://img.shields.io/badge/Operational%20Control-0D1117?style=for-the-badge&logo=datadog&logoColor=FF0000" alt="Operational Control" />
+</p>
 
 ## Stack
 
