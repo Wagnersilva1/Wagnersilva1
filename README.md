@@ -76,11 +76,7 @@ Focused on creating efficient, scalable solutions that optimize workflows, impro
 ## GitHub Activity
 
 <p align="center">
-  <img width="860" src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=18&duration=2200&pause=650&color=FF2D2D&center=true&vCenter=true&width=760&lines=Contribution+map+generated+from+GitHub+activity;Private+activity+included+through+the+profile+workflow;Updated+automatically+by+GitHub+Actions" alt="Animated GitHub activity text" />
+  <img width="860" src="./profile-3d-contrib/profile-night-green.svg" alt="3D contribution graph" />
 </p>
 
 <p align="center">
