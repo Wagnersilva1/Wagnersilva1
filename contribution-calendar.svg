@@ -1,0 +1,21 @@
+<svg width="980" height="220" viewBox="0 0 980 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="980" height="220" rx="12" fill="#0D1117" stroke="#30363D"/>
+  <text x="28" y="30" fill="#E6EDF3" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Contribution Graph</text>
+  <text x="952" y="30" text-anchor="end" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="14">Waiting for workflow update</text>
+  <text x="78" y="42" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">Jan</text>
+  <text x="154" y="42" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">Feb</text>
+  <text x="230" y="42" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">Mar</text>
+  <text x="306" y="42" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">Apr</text>
+  <text x="382" y="42" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">May</text>
+  <text x="458" y="42" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">Jun</text>
+  <text x="534" y="42" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">Jul</text>
+  <text x="610" y="42" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">Aug</text>
+  <text x="686" y="42" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">Sep</text>
+  <text x="762" y="42" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">Oct</text>
+  <text x="838" y="42" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">Nov</text>
+  <text x="914" y="42" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">Dec</text>
+  <text x="36" y="72" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">Sun</text>
+  <text x="36" y="88" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">Mon</text>
+  <text x="36" y="120" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">Wed</text>
+  <text x="36" y="152" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">Fri</text>
+</svg>

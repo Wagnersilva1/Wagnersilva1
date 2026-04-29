@@ -80,6 +80,10 @@ Focused on creating efficient, scalable solutions that optimize workflows, impro
 </p>
 
 <p align="center">
+  <img width="860" src="./contribution-calendar.svg" alt="GitHub contribution calendar with month and weekday labels" />
+</p>
+
+<p align="center">
   <a href="https://github.com/Wagnersilva1?tab=repositories">
     <img src="https://img.shields.io/badge/OPEN%20REPOSITORIES-0969DA?style=for-the-badge&logo=github&logoColor=white" alt="Open repositories" />
   </a>
