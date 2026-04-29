@@ -76,6 +76,10 @@ Focused on creating efficient, scalable solutions that optimize workflows, impro
 ## GitHub Activity
 
 <p align="center">
+  <img width="860" src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" />
+</p>
+
+<p align="center">
   <img width="860" src="./github-metrics.svg" alt="GitHub activity metrics" />
 </p>
 
