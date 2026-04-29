@@ -1,0 +1,28 @@
+<svg width="860" height="260" viewBox="0 0 860 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="860" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#071B33"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00D4FF"/>
+      <stop offset=".5" stop-color="#0969DA"/>
+      <stop offset="1" stop-color="#00D4FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="260" rx="16" fill="url(#bg)" stroke="#30363D"/>
+  <rect x="24" y="24" width="812" height="3" rx="1.5" fill="url(#line)"/>
+  <text x="430" y="88" text-anchor="middle" fill="#E6EDF3" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">GitHub Metrics</text>
+  <text x="430" y="126" text-anchor="middle" fill="#58A6FF" font-family="Consolas, monospace" font-size="17" font-weight="700">public + private data after METRICS_TOKEN setup</text>
+  <text x="430" y="166" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="16">Add a repository secret named METRICS_TOKEN and run the GitHub Metrics workflow.</text>
+  <g opacity=".95">
+    <rect x="178" y="196" width="130" height="34" rx="17" fill="#111827" stroke="#30363D"/>
+    <text x="243" y="218" text-anchor="middle" fill="#00D4FF" font-family="Consolas, monospace" font-size="14" font-weight="700">commits</text>
+    <rect x="324" y="196" width="130" height="34" rx="17" fill="#111827" stroke="#30363D"/>
+    <text x="389" y="218" text-anchor="middle" fill="#238636" font-family="Consolas, monospace" font-size="14" font-weight="700">repos</text>
+    <rect x="470" y="196" width="130" height="34" rx="17" fill="#111827" stroke="#30363D"/>
+    <text x="535" y="218" text-anchor="middle" fill="#F7DF1E" font-family="Consolas, monospace" font-size="14" font-weight="700">languages</text>
+    <rect x="616" y="196" width="130" height="34" rx="17" fill="#111827" stroke="#30363D"/>
+    <text x="681" y="218" text-anchor="middle" fill="#58A6FF" font-family="Consolas, monospace" font-size="14" font-weight="700">activity</text>
+  </g>
+</svg>

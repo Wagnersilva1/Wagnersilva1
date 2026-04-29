@@ -1,9 +1,5 @@
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:0D1117,45:0969DA,100:00D4FF&text=Wagner%20Silva&fontColor=FFFFFF&fontSize=46&fontAlignY=38&animation=twinkling" alt="Wagner Silva" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=24&duration=2400&pause=700&color=00D4FF&center=true&vCenter=true&width=900&lines=JavaScript+Developer+%7C+FiveM+vRP;Discord+Bots+%7C+APIs+%7C+Automation;Building+scalable+and+optimized+systems" alt="Typing SVG" />
+  <img width="100%" src="./assets/banner.svg" alt="Animated Wagner Silva banner" />
 </p>
 
 <p align="center">
@@ -13,66 +9,58 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=node.js&logoColor=5FA04E" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Lua-0D1117?style=for-the-badge&logo=lua&logoColor=2C2D72" alt="Lua" />
-  <img src="https://img.shields.io/badge/Discord%20Bots-0D1117?style=for-the-badge&logo=discord&logoColor=5865F2" alt="Discord Bots" />
-  <img src="https://img.shields.io/badge/FiveM%20vRP-0D1117?style=for-the-badge&logo=fivem&logoColor=00D4FF" alt="FiveM vRP" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&duration=2400&pause=700&color=58A6FF&center=true&vCenter=true&width=900&lines=FiveM+vRP+systems+and+server+automation;Discord+Bots%2C+APIs+and+operational+tools;Clean+interfaces%2C+organized+repos+and+real+delivery" alt="Typing animation" />
 </p>
 
 <br />
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=20&duration=1&pause=100000&color=58A6FF&center=true&vCenter=true&repeat=false&width=420&lines=%3C%2F%3E+professional+profile" alt="Professional profile" />
-</p>
+## Professional Profile
 
 ```txt
-CEO | JavaScript Developer FiveM (vRP), Discord Bots, APIs & Automation
-Focus: scalable systems, optimized resources, Discord integrations and API automation.
+CEO | JavaScript Developer
+FiveM (vRP) | Discord Bots | APIs | Automation
 ```
 
 <table>
   <tr>
     <td width="50%">
       <h3 align="center">FiveM vRP</h3>
-      <p align="center">Scripts, systems, resources and automations for roleplay servers.</p>
+      <p align="center">Server systems, resources, scripts and workflow automation for roleplay environments.</p>
     </td>
     <td width="50%">
       <h3 align="center">Discord Bots</h3>
-      <p align="center">Commands, integrations, moderation tools and community automation.</p>
+      <p align="center">Command systems, integrations, moderation flows and community automation.</p>
     </td>
   </tr>
   <tr>
     <td width="50%">
       <h3 align="center">APIs & Automation</h3>
-      <p align="center">Internal tools, REST integrations and automated workflows.</p>
+      <p align="center">Internal tools, REST integrations, data flows and practical automations.</p>
     </td>
     <td width="50%">
-      <h3 align="center">Web Interfaces</h3>
-      <p align="center">Dashboards, documentation pages and clean responsive interfaces.</p>
+      <h3 align="center">Interfaces</h3>
+      <p align="center">Dashboards, documentation pages and clean web presentation layers.</p>
     </td>
   </tr>
 </table>
 
+## Stack
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0D1117,50:00D4FF,100:0D1117" alt="" />
+  <img src="https://skillicons.dev/icons?i=js,nodejs,lua,html,css,git,github,vscode,discord&theme=dark" alt="JavaScript, Node.js, Lua, HTML, CSS, Git, GitHub, VS Code and Discord" />
+</p>
+
+## GitHub Metrics
+
+<p align="center">
+  <img width="860" src="./github-metrics.svg" alt="GitHub metrics with public and private contributions" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=20&duration=1&pause=100000&color=58A6FF&center=true&vCenter=true&repeat=false&width=360&lines=%E2%9A%99%EF%B8%8F+main+stack" alt="Main stack" />
+  <sub>Private repository data appears here after configuring the repository secret <code>METRICS_TOKEN</code>.</sub>
 </p>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,nodejs,lua,html,css,git,github,vscode,discord&theme=dark" alt="Main stack icons" />
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0D1117,50:00D4FF,100:0D1117" alt="" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=20&duration=1&pause=100000&color=58A6FF&center=true&vCenter=true&repeat=false&width=460&lines=%F0%9F%93%8A+real+public+github+data" alt="Real public GitHub data" />
-</p>
+## Public Fallback
 
 <p align="center">
   <img width="390" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Wagnersilva1&theme=github_dark" alt="Public GitHub stats" />
@@ -84,23 +72,7 @@ Focus: scalable systems, optimized resources, Discord integrations and API autom
 </p>
 
 <p align="center">
-  <img width="420" src="https://github-readme-streak-stats.herokuapp.com?user=Wagnersilva1&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="Public contribution streak" />
-</p>
-
-<p align="center">
-  <sub>GitHub cards show public activity only. Private repositories and private commits are not exposed to public README widgets.</sub>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0D1117,50:00D4FF,100:0D1117" alt="" />
-</p>
-
-<p align="center">
   <a href="https://github.com/Wagnersilva1?tab=repositories">
-    <img src="https://img.shields.io/badge/OPEN%20PUBLIC%20REPOSITORIES-0969DA?style=for-the-badge&logo=github&logoColor=white" alt="Open public repositories" />
+    <img src="https://img.shields.io/badge/OPEN%20REPOSITORIES-0969DA?style=for-the-badge&logo=github&logoColor=white" alt="Open repositories" />
   </a>
-</p>
-
-<p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:0D1117,45:0969DA,100:00D4FF" alt="" />
 </p>
