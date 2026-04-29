@@ -1,92 +1,124 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1500" height="500" viewBox="0 0 1500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .bg-grid { stroke: #1f6feb; stroke-opacity: .18; }
-    .glow { filter: drop-shadow(0 0 18px rgba(0, 212, 255, .65)); }
-    .name-a { animation: flipA 6s ease-in-out infinite; transform-origin: 610px 148px; }
-    .name-b { animation: flipB 6s ease-in-out infinite; transform-origin: 610px 148px; }
-    .avatar { animation: float 4.5s ease-in-out infinite; transform-origin: 210px 180px; }
-    .blade { animation: pulse 2.4s ease-in-out infinite; }
-    .scan { animation: scan 3.6s linear infinite; }
-    @keyframes flipA {
-      0%, 38% { opacity: 1; transform: rotateX(0deg); }
-      48%, 88% { opacity: 0; transform: rotateX(90deg); }
-      100% { opacity: 1; transform: rotateX(0deg); }
+    .name-wagner {
+      animation: wagnerIn 7s cubic-bezier(.22,1,.36,1) infinite;
+      transform-origin: 300px 225px;
     }
-    @keyframes flipB {
-      0%, 42% { opacity: 0; transform: rotateX(-90deg); }
-      52%, 86% { opacity: 1; transform: rotateX(0deg); }
-      100% { opacity: 0; transform: rotateX(-90deg); }
+    .name-kakashi {
+      animation: kakashiIn 7s cubic-bezier(.22,1,.36,1) infinite;
+      transform-origin: 300px 225px;
     }
-    @keyframes float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-10px); }
+    .scan {
+      animation: scan 3.2s linear infinite;
     }
-    @keyframes pulse {
-      0%, 100% { opacity: .45; }
-      50% { opacity: 1; }
+    .pulse {
+      animation: pulse 2.4s ease-in-out infinite;
+    }
+    .line-a {
+      animation: lineMove 6s linear infinite;
+    }
+    .line-b {
+      animation: lineMove 8s linear infinite reverse;
+    }
+    .photo {
+      animation: photoPulse 7s ease-in-out infinite;
+      transform-origin: 1065px 250px;
+    }
+    @keyframes wagnerIn {
+      0% { opacity: 0; transform: translateX(-70px) skewX(-12deg); filter: blur(6px); }
+      8%, 38% { opacity: 1; transform: translateX(0) skewX(0); filter: blur(0); }
+      48%, 100% { opacity: 0; transform: translateX(55px) skewX(10deg); filter: blur(7px); }
+    }
+    @keyframes kakashiIn {
+      0%, 44% { opacity: 0; transform: translateY(38px) scale(.94); filter: blur(8px); }
+      52%, 86% { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
+      96%, 100% { opacity: 0; transform: translateY(-28px) scale(.98); filter: blur(6px); }
     }
     @keyframes scan {
-      0% { transform: translateX(-460px); opacity: 0; }
-      20%, 75% { opacity: .85; }
-      100% { transform: translateX(1240px); opacity: 0; }
+      0% { transform: translateX(-340px); opacity: 0; }
+      18%, 70% { opacity: .9; }
+      100% { transform: translateX(1540px); opacity: 0; }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: .55; }
+      50% { opacity: 1; }
+    }
+    @keyframes lineMove {
+      0% { transform: translateX(-240px); }
+      100% { transform: translateX(240px); }
+    }
+    @keyframes photoPulse {
+      0%, 100% { transform: scale(1); filter: saturate(1.08) contrast(1.06); }
+      50% { transform: scale(1.025); filter: saturate(1.25) contrast(1.12); }
     }
   </style>
 
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0D1117"/>
-      <stop offset=".48" stop-color="#071B33"/>
-      <stop offset="1" stop-color="#02040A"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1500" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050000"/>
+      <stop offset=".38" stop-color="#4A0000"/>
+      <stop offset=".72" stop-color="#E00000"/>
+      <stop offset="1" stop-color="#130000"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#00D4FF"/>
-      <stop offset="1" stop-color="#58A6FF"/>
+    <linearGradient id="darkFade" x1="0" y1="0" x2="1500" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#000000" stop-opacity=".72"/>
+      <stop offset=".47" stop-color="#000000" stop-opacity=".28"/>
+      <stop offset=".72" stop-color="#000000" stop-opacity=".04"/>
+      <stop offset="1" stop-color="#000000" stop-opacity=".76"/>
     </linearGradient>
-    <radialGradient id="orb" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 170) rotate(90) scale(155)">
-      <stop stop-color="#00D4FF" stop-opacity=".22"/>
-      <stop offset="1" stop-color="#00D4FF" stop-opacity="0"/>
-    </radialGradient>
-    <clipPath id="circle">
-      <circle cx="210" cy="180" r="96"/>
+    <linearGradient id="whiteSlash" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset=".88" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="rightPhoto">
+      <path d="M780 0H1500V500H690C760 412 795 322 790 230C786 144 750 70 780 0Z"/>
     </clipPath>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#000000" flood-opacity=".55"/>
+    </filter>
   </defs>
 
-  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
-  <path d="M0 310C170 250 250 330 410 282C585 230 710 260 860 292C1015 325 1102 288 1200 248V360H0V310Z" fill="#0969DA" opacity=".12"/>
-  <path class="bg-grid" d="M80 54H1120M80 104H1120M80 154H1120M80 204H1120M80 254H1120M80 304H1120M120 32V328M220 32V328M320 32V328M420 32V328M520 32V328M620 32V328M720 32V328M820 32V328M920 32V328M1020 32V328M1120 32V328"/>
-  <rect class="scan" x="0" y="0" width="180" height="360" fill="url(#accent)" opacity=".08"/>
+  <rect width="1500" height="500" fill="url(#bg)"/>
+  <rect width="1500" height="500" fill="url(#darkFade)"/>
 
-  <g class="avatar">
-    <circle cx="210" cy="180" r="132" fill="url(#orb)"/>
-    <circle cx="210" cy="180" r="104" fill="#0D1117" stroke="#30363D" stroke-width="3"/>
-    <g clip-path="url(#circle)">
-      <rect x="110" y="80" width="200" height="200" fill="#0B1220"/>
-      <path d="M120 255C138 203 170 178 211 178C252 178 284 203 302 255V280H120V255Z" fill="#161B22"/>
-      <path d="M145 166C154 113 180 88 221 92C261 96 284 125 288 170C251 154 201 148 145 166Z" fill="#D8DEE9"/>
-      <path d="M142 164C190 144 239 145 287 164L275 193C232 181 190 181 153 194L142 164Z" fill="#C9D1D9"/>
-      <rect x="144" y="151" width="134" height="34" rx="9" fill="#1F6FEB"/>
-      <rect x="157" y="160" width="108" height="16" rx="8" fill="#0D1117"/>
-      <path d="M169 207C194 222 228 223 255 207V270H169V207Z" fill="#0D1117"/>
-      <path d="M178 212C204 224 224 224 248 212" stroke="#58A6FF" stroke-width="5" stroke-linecap="round"/>
-      <path class="blade" d="M208 105L222 178L199 230L211 166L198 116L208 105Z" fill="#E6EDF3"/>
-      <path d="M174 174L201 159M247 159L274 174" stroke="#00D4FF" stroke-width="5" stroke-linecap="round"/>
-    </g>
-    <circle cx="210" cy="180" r="104" fill="none" stroke="url(#accent)" stroke-width="2" opacity=".75"/>
+  <g opacity=".2">
+    <path class="line-a" d="M0 75C280 18 514 23 750 73C1002 126 1222 124 1500 64" stroke="#FF6B6B" stroke-width="3"/>
+    <path class="line-b" d="M0 118C265 68 503 70 782 128C1048 184 1260 170 1500 105" stroke="#FFFFFF" stroke-width="2"/>
+    <path class="line-a" d="M0 162C276 111 533 112 806 171C1054 225 1262 210 1500 151" stroke="#FF2D2D" stroke-width="3"/>
+    <path class="line-b" d="M0 210C300 156 565 159 842 220C1082 272 1280 255 1500 199" stroke="#FFFFFF" stroke-width="1.5"/>
+    <path class="line-a" d="M0 258C302 207 575 207 865 268C1105 318 1295 305 1500 250" stroke="#FF2D2D" stroke-width="3"/>
   </g>
 
-  <g class="glow">
-    <text class="name-a" x="390" y="143" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="800">Wagner Silva</text>
-    <text class="name-b" x="390" y="143" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="800">Sr. Kakashi</text>
-  </g>
-  <text x="392" y="190" fill="#8B949E" font-family="Consolas, monospace" font-size="23" font-weight="600">JavaScript Developer | FiveM vRP | Discord Bots | APIs</text>
-  <text x="392" y="230" fill="#58A6FF" font-family="Consolas, monospace" font-size="20">building scalable systems, automations and clean interfaces</text>
+  <rect class="scan" x="0" y="0" width="220" height="500" fill="#FFFFFF" opacity=".08"/>
 
-  <rect x="390" y="260" width="120" height="34" rx="17" fill="#111827" stroke="#30363D"/>
-  <text x="420" y="282" fill="#F7DF1E" font-family="Consolas, monospace" font-size="15" font-weight="700">JS</text>
-  <rect x="526" y="260" width="130" height="34" rx="17" fill="#111827" stroke="#30363D"/>
-  <text x="555" y="282" fill="#5FA04E" font-family="Consolas, monospace" font-size="15" font-weight="700">Node.js</text>
-  <rect x="672" y="260" width="112" height="34" rx="17" fill="#111827" stroke="#30363D"/>
-  <text x="706" y="282" fill="#00D4FF" font-family="Consolas, monospace" font-size="15" font-weight="700">vRP</text>
-  <rect x="800" y="260" width="156" height="34" rx="17" fill="#111827" stroke="#30363D"/>
-  <text x="830" y="282" fill="#58A6FF" font-family="Consolas, monospace" font-size="15" font-weight="700">Automation</text>
+  <g clip-path="url(#rightPhoto)" filter="url(#shadow)">
+    <image class="photo" href="kakashi.png" x="740" y="-72" width="730" height="650" preserveAspectRatio="xMidYMid slice"/>
+    <rect x="675" y="0" width="825" height="500" fill="url(#darkFade)" opacity=".35"/>
+    <rect x="650" y="0" width="850" height="500" fill="#FF0000" opacity=".14"/>
+  </g>
+
+  <path d="M0 116H790L715 190H0V116Z" fill="url(#whiteSlash)"/>
+  <text x="120" y="166" fill="#F40000" font-family="Segoe UI, Arial, sans-serif" font-size="43" font-weight="900" letter-spacing="1">PROFILE DEVELOPER</text>
+
+  <g class="name-wagner">
+    <text x="118" y="283" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="74" font-weight="900">Wagner Silva</text>
+    <text x="122" y="322" fill="#FFEAEA" font-family="Consolas, monospace" font-size="24" font-weight="700">JavaScript Developer | FiveM vRP | Discord Bots</text>
+  </g>
+
+  <g class="name-kakashi">
+    <text x="118" y="283" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="78" font-weight="900">Sr. Kakashi</text>
+    <text x="122" y="322" fill="#FFEAEA" font-family="Consolas, monospace" font-size="24" font-weight="700">Automation | APIs | Optimized Systems</text>
+    <path class="pulse" d="M118 340H585" stroke="#FF1D1D" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <rect x="118" y="365" width="250" height="56" rx="10" fill="#111111" fill-opacity=".32" stroke="#FFFFFF" stroke-opacity=".78"/>
+    <text x="150" y="402" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="800">GitHub Profile</text>
+    <rect x="390" y="365" width="315" height="56" rx="10" fill="#FF0000"/>
+    <text x="425" y="402" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="900">Systems & Automation</text>
+  </g>
+
+  <rect x="0" y="0" width="1500" height="500" fill="none" stroke="#30363D"/>
+  <rect x="0" y="455" width="1500" height="45" fill="url(#darkFade)" opacity=".8"/>
 </svg>
