@@ -50,10 +50,10 @@ const weeks = calendar.weeks;
 
 const cell = 12;
 const gap = 4;
-const left = 78;
-const top = 62;
+const left = 104;
+const top = 68;
 const width = 980;
-const height = 220;
+const height = 250;
 const graphWidth = weeks.length * (cell + gap);
 const graphHeight = 7 * (cell + gap);
 const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -109,7 +109,7 @@ const dayText = dayLabels.map(({ index, label }) =>
 ).join("\n");
 
 const legendX = left + graphWidth - 154;
-const legendY = top + graphHeight + 28;
+const legendY = top + graphHeight + 34;
 
 const svg = `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
@@ -121,6 +121,8 @@ const svg = `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${he
   <rect width="${width}" height="${height}" rx="12" fill="url(#panel)" stroke="#30363D"/>
   <text x="28" y="30" fill="#E6EDF3" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Contribution Graph</text>
   <text x="${width - 28}" y="30" text-anchor="end" fill="#39D353" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">${calendar.totalContributions.toLocaleString("en-US")} contributions in the last year</text>
+  <text x="${left + graphWidth / 2}" y="20" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="11">Months</text>
+  <text x="22" y="${top + graphHeight / 2}" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="11" transform="rotate(-90 22 ${top + graphHeight / 2})">Day of week</text>
   ${monthText}
   ${dayText}
   <g>

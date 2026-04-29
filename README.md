@@ -76,11 +76,11 @@ Focused on creating efficient, scalable solutions that optimize workflows, impro
 ## GitHub Activity
 
 <p align="center">
-  <img width="860" src="./profile-3d-contrib/profile-night-view.svg" alt="GitHub 3D contribution activity" />
+  <img width="860" src="./contribution-calendar.svg" alt="GitHub contribution calendar with month and weekday labels" />
 </p>
 
 <p align="center">
-  <img width="860" src="./contribution-calendar.svg" alt="GitHub contribution calendar with month and weekday labels" />
+  <img width="860" src="./profile-3d-contrib/profile-night-view.svg" alt="GitHub 3D contribution activity" />
 </p>
 
 <p align="center">
