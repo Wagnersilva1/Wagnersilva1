@@ -73,17 +73,7 @@ Focused on creating efficient, scalable solutions that optimize workflows, impro
   <img src="https://skillicons.dev/icons?i=js,nodejs,lua,html,css,git,github,vscode,discord&theme=dark" alt="JavaScript, Node.js, Lua, HTML, CSS, Git, GitHub, VS Code and Discord" />
 </p>
 
-## GitHub Metrics
-
-<p align="center">
-  <img width="860" src="./github-metrics.svg" alt="GitHub metrics with public and private contributions" />
-</p>
-
-<p align="center">
-  <sub>Private repository data appears here after configuring the repository secret <code>METRICS_TOKEN</code>.</sub>
-</p>
-
-## Public Fallback
+## GitHub Activity
 
 <p align="center">
   <img width="390" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Wagnersilva1&theme=github_dark" alt="Public GitHub stats" />
