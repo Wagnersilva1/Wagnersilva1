@@ -24,6 +24,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
           USERNAME: Wagnersilva1
 
+      - name: Add perspective labels to 3D graph
+        run: node scripts/add-3d-graph-labels.mjs
+
       - name: Commit 3D contribution graph
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
