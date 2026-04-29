@@ -76,7 +76,8 @@ Focused on creating efficient, scalable solutions that optimize workflows, impro
 ## GitHub Activity
 
 <p align="center">
-  <img width="860" src="https://ghchart.rshah.org/00D4FF/Wagnersilva1" alt="GitHub contribution calendar" />
+  <img width="390" src="https://github-readme-streak-stats.herokuapp.com?user=Wagnersilva1&theme=dark&hide_border=true&background=0D1117&ring=FF0000&fire=FF0000&currStreakLabel=58A6FF" alt="GitHub streak" />
+  <img width="390" src="https://github-readme-stats.vercel.app/api?username=Wagnersilva1&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github" alt="GitHub stats" />
 </p>
 
 <p align="center">
