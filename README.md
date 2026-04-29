@@ -76,12 +76,7 @@ Focused on creating efficient, scalable solutions that optimize workflows, impro
 ## GitHub Activity
 
 <p align="center">
-  <img width="390" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Wagnersilva1&theme=github_dark" alt="Public GitHub stats" />
-  <img width="390" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Wagnersilva1&theme=github_dark&utcOffset=-3" alt="Productive time" />
-</p>
-
-<p align="center">
-  <img width="820" src="https://github-readme-activity-graph.vercel.app/graph?username=Wagnersilva1&theme=react-dark&hide_border=true&area=true&custom_title=Public%20Contribution%20Graph" alt="Public contribution graph" />
+  <img width="860" src="./github-metrics.svg" alt="GitHub activity metrics" />
 </p>
 
 <p align="center">
