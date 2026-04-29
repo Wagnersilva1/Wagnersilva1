@@ -80,7 +80,7 @@ Focused on creating efficient, scalable solutions that optimize workflows, impro
 </p>
 
 <p align="center">
-  <img width="860" src="./github-metrics.svg" alt="GitHub activity metrics" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=18&duration=2200&pause=650&color=FF2D2D&center=true&vCenter=true&width=760&lines=Contribution+map+generated+from+GitHub+activity;Private+activity+included+through+the+profile+workflow;Updated+automatically+by+GitHub+Actions" alt="Animated GitHub activity text" />
 </p>
 
 <p align="center">
