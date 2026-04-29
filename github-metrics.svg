@@ -1,0 +1,18 @@
+<svg width="860" height="180" viewBox="0 0 860 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="860" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#120303"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF0000"/>
+      <stop offset=".45" stop-color="#58A6FF"/>
+      <stop offset="1" stop-color="#00D4FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="180" rx="14" fill="url(#bg)" stroke="#30363D"/>
+  <rect x="28" y="26" width="804" height="4" rx="2" fill="url(#accent)"/>
+  <text x="430" y="78" text-anchor="middle" fill="#E6EDF3" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">GitHub Activity</text>
+  <text x="430" y="114" text-anchor="middle" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="16">Metrics will update automatically after the GitHub Actions workflow runs.</text>
+  <text x="430" y="144" text-anchor="middle" fill="#58A6FF" font-family="Consolas, monospace" font-size="15" font-weight="700">public fallback active • private data requires METRICS_TOKEN</text>
+</svg>
