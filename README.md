@@ -42,7 +42,7 @@ I care about clean code, organized repositories and interfaces that are useful w
 ## `stats`
 
 <p align="center">
-  <img width="420" src="https://github-readme-stats.vercel.app/api?username=Wagnersilva1&show_icons=true&hide_border=true&theme=github_dark&include_all_commits=true" alt="GitHub stats" />
+  <img width="420" src="https://github-readme-stats.vercel.app/api?username=Wagnersilva1&show_icons=true&hide_border=true&theme=github_dark" alt="GitHub stats" />
   <img width="320" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wagnersilva1&layout=compact&hide_border=true&theme=github_dark" alt="Most used languages" />
 </p>
 
