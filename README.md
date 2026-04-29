@@ -18,7 +18,11 @@
 
 ```txt
 CEO | JavaScript Developer | Systems Builder
-FiveM (vRP) | Discord Bots | APIs | Automation | Operational Tools
+
+Specialized in automation, backend scripting, and system integration using JavaScript.
+Strong experience with FiveM (vRP) development, Discord bots, APIs, and operational tools.
+
+Focused on creating efficient, scalable solutions that optimize workflows, improve performance, and support digital operations with reliability and precision.
 ```
 
 <p align="center">
