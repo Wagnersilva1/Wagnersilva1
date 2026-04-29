@@ -76,7 +76,7 @@ Focused on creating efficient, scalable solutions that optimize workflows, impro
 ## GitHub Activity
 
 <p align="center">
-  <img width="860" src="./profile-3d-contrib/profile-night-view.svg" alt="3D contribution graph" />
+  <img width="860" src="https://ghchart.rshah.org/00D4FF/Wagnersilva1" alt="GitHub contribution calendar" />
 </p>
 
 <p align="center">
