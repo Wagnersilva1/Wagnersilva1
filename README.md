@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" src="./assets/banner.svg" alt="Animated Wagner Silva banner" />
+  <img width="100%" src="./assets/banner.gif" alt="Animated Wagner Silva and Sr. Kakashi banner" />
 </p>
 
 <p align="center">
