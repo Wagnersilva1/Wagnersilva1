@@ -99,7 +99,7 @@ Focused on creating efficient, scalable solutions that optimize workflows, impro
 ## GitHub Activity
 
 <p align="center">
-  <img width="940" src="./assets/contribution-graph.svg" alt="GitHub contribution activity line chart" />
+  <img width="940" src="https://github-readme-activity-graph.vercel.app/graph?username=Wagnersilva1&bg_color=0d1117&color=00ff66&line=16df70&point=16df70&area=false&hide_border=true&custom_title=Wagner%20Silva%20Contribution%20Graph" alt="Wagner Silva GitHub contribution activity graph" />
 </p>
 
 <p align="center">
