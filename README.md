@@ -99,7 +99,7 @@ Focused on creating efficient, scalable solutions that optimize workflows, impro
 ## GitHub Activity
 
 <p align="center">
-  <img width="940" src="https://github-readme-activity-graph.vercel.app/graph?username=Wagnersilva1&bg_color=0d1117&color=00ff66&line=16df70&point=16df70&area=false&hide_border=true&custom_title=Wagner%20Silva%20Contribution%20Graph" alt="Wagner Silva GitHub contribution activity graph" />
+  <img width="860" src="./profile-3d-contrib/profile-night-view.svg" alt="GitHub 3D contribution activity" />
 </p>
 
 <p align="center">
