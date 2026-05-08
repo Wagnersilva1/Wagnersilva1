@@ -17,7 +17,7 @@
 ## Professional Profile
 
 ```txt
-CEO | JavaScript Developer | Systems Builder
+CEO | JavaScript Developer | FiveM vRP Developer | Discord Bot Developer
 
 Specialized in automation, backend scripting, and system integration using JavaScript.
 Strong experience with FiveM (vRP) development, Discord bots, APIs, and operational tools.
@@ -58,6 +58,17 @@ Focused on creating efficient, scalable solutions that optimize workflows, impro
   </tr>
 </table>
 
+## Cargos e funcoes reais
+
+<p align="center">
+  <img src="https://img.shields.io/badge/CEO-0D1117?style=for-the-badge&logo=target&logoColor=00D4FF" alt="CEO" />
+  <img src="https://img.shields.io/badge/JavaScript%20Developer-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript Developer" />
+  <img src="https://img.shields.io/badge/FiveM%20vRP%20Developer-0D1117?style=for-the-badge&logo=lua&logoColor=2C2D72" alt="FiveM vRP Developer" />
+  <img src="https://img.shields.io/badge/Discord%20Bot%20Developer-0D1117?style=for-the-badge&logo=discord&logoColor=5865F2" alt="Discord Bot Developer" />
+  <img src="https://img.shields.io/badge/Backend%20Automation-0D1117?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Backend Automation" />
+  <img src="https://img.shields.io/badge/Systems%20Builder-0D1117?style=for-the-badge&logo=serverless&logoColor=58A6FF" alt="Systems Builder" />
+</p>
+
 ## Executive Strengths
 
 <p align="center">
@@ -67,16 +78,28 @@ Focused on creating efficient, scalable solutions that optimize workflows, impro
   <img src="https://img.shields.io/badge/Operational%20Control-0D1117?style=for-the-badge&logo=datadog&logoColor=FF0000" alt="Operational Control" />
 </p>
 
-## Stack
+## Stacks que ja trabalhei
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=js,nodejs,lua,html,css,git,github,vscode,discord&theme=dark" alt="JavaScript, Node.js, Lua, HTML, CSS, Git, GitHub, VS Code and Discord" />
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Lua-0D1117?style=for-the-badge&logo=lua&logoColor=2C2D72" alt="Lua" />
+  <img src="https://img.shields.io/badge/HTML5-0D1117?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-0D1117?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub" />
+  <img src="https://img.shields.io/badge/VS%20Code-0D1117?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC" alt="VS Code" />
+  <img src="https://img.shields.io/badge/Discord-0D1117?style=for-the-badge&logo=discord&logoColor=5865F2" alt="Discord" />
+</p>
+
 ## GitHub Activity
 
 <p align="center">
-  <img width="860" src="./profile-3d-contrib/profile-night-view.svg" alt="GitHub 3D contribution activity" />
+  <img width="940" src="./assets/contribution-graph.svg" alt="GitHub contribution activity line chart" />
 </p>
 
 <p align="center">
