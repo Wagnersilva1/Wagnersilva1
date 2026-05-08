@@ -80,22 +80,24 @@ Focused on creating efficient, scalable solutions that optimize workflows, impro
 
 ## Stacks que ja trabalhei
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,nodejs,python,lua,react,vite,html,css,git,github,vscode,discord&theme=dark" alt="JavaScript, TypeScript, Node.js, Python, Lua, React, Vite, HTML, CSS, Git, GitHub, VS Code and Discord" />
-</p>
-
 ### Linguagens
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=js,ts,python,lua&theme=dark" alt="JavaScript, TypeScript, Python and Lua" />
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
   <img src="https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
   <img src="https://img.shields.io/badge/Lua-0D1117?style=for-the-badge&logo=lua&logoColor=2C2D72" alt="Lua" />
-  <img src="https://img.shields.io/badge/HTML5-0D1117?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-0D1117?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS3" />
 </p>
 
 ### Frameworks e runtimes
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,react,vite&theme=dark" alt="Node.js, React and Vite" />
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js" />
@@ -103,7 +105,22 @@ Focused on creating efficient, scalable solutions that optimize workflows, impro
   <img src="https://img.shields.io/badge/Vite-0D1117?style=for-the-badge&logo=vite&logoColor=646CFF" alt="Vite" />
 </p>
 
+### Marcacao e estilo
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css&theme=dark" alt="HTML and CSS" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-0D1117?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-0D1117?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS3" />
+</p>
+
 ### Ferramentas
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,discord&theme=dark" alt="Git, GitHub, VS Code and Discord" />
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
