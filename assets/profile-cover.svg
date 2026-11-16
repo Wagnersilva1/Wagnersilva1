@@ -1,30 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="348" viewBox="0 0 1080 348" role="img" aria-labelledby="title">
-  <title id="title">Wagner Silva | CEO e Desenvolvedor Full-Stack</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="390" viewBox="0 0 1080 390" role="img" aria-labelledby="title">
+  <title id="title">Wagner Silva — CEO e Desenvolvedor Full-Stack</title>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
-      <stop stop-color="#0c1520"/>
-      <stop offset="1" stop-color="#17283b"/>
+    <linearGradient id="background" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#080a08"/>
+      <stop offset="1" stop-color="#151b12"/>
     </linearGradient>
-    <linearGradient id="accent">
-      <stop stop-color="#a7f2dc"/>
-      <stop offset="1" stop-color="#5ec8e7"/>
+    <radialGradient id="light">
+      <stop stop-color="#96e552" stop-opacity=".29"/>
+      <stop offset="1" stop-color="#96e552" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lime" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#e0ffaf"/>
+      <stop offset="1" stop-color="#78c838"/>
     </linearGradient>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#6b89a6" stroke-opacity=".21"/>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M0 26V0H26" fill="none" stroke="#b4de9a" stroke-opacity=".18"/>
     </pattern>
-    <clipPath id="frame"><rect width="1080" height="348" rx="18"/></clipPath>
+    <clipPath id="frame"><rect width="1080" height="390" rx="12"/></clipPath>
+    <clipPath id="panel"><path d="M757 0h323v390H641Z"/></clipPath>
   </defs>
   <g clip-path="url(#frame)">
-    <rect width="1080" height="348" fill="url(#background)"/>
-    <path d="M702 0h378v348H554z" fill="#122234"/>
-    <path d="M702 0h378v348H554z" fill="url(#grid)"/>
-    <path d="M702 0 554 348M741 0 593 348" fill="none" stroke="#88a8c7" stroke-opacity=".26"/>
-    <path d="M654 305h397M715 43h335" fill="none" stroke="#88a8c7" stroke-opacity=".3"/>
-    <path d="m765 102 25 142 48-85 48 85 29-142m-40 0 30 44h68l-32 41h-39m0 0h50l-42 57h-38" fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-    <rect x="52" y="58" width="50" height="3" rx="1.5" fill="url(#accent)"/>
-    <text x="49" y="151" fill="#f3f8ff" font-family="Georgia,serif" font-size="76">Wagner Silva</text>
-    <text x="52" y="211" fill="#a7f2dc" font-family="Segoe UI,Arial,sans-serif" font-size="32" font-weight="600">CEO e Desenvolvedor Full-Stack</text>
-    <text x="53" y="267" fill="#b9cbe0" font-family="Segoe UI,Arial,sans-serif" font-size="24">Estratégia de produto, engenharia e operação</text>
-    <rect x=".5" y=".5" width="1079" height="347" rx="17.5" fill="none" stroke="#57718a"/>
+    <rect width="1080" height="390" fill="url(#background)"/>
+    <g clip-path="url(#panel)">
+      <rect x="635" width="445" height="390" fill="#111a0e"/>
+      <ellipse cx="905" cy="190" rx="220" ry="185" fill="url(#light)"/>
+      <rect x="638" width="442" height="390" fill="url(#grid)"/>
+      <path d="M680 321h82l37-37h244M711 76h101l32 32h194M755 347h215l23-23h87M937 48h143" fill="none" stroke="#9fd66c" stroke-opacity=".37"/>
+      <path d="M785 136h30l20 74 30-61h25l29 61 20-74h31l-39 121h-24l-30-61-29 61h-24Z" fill="url(#lime)"/>
+      <path d="M962 136h52l-9 22h-36l-8 18h38l-9 23h-38l-15 34h39l-10 24h-51l15-43Z" fill="#b2ec78"/>
+      <circle cx="1038" cy="108" r="3" fill="#c5ff87"/>
+      <circle cx="1043" cy="284" r="3" fill="#c5ff87"/>
+    </g>
+    <path d="M757 0 641 390M745 0 629 390" fill="none" stroke="#a8ed6a" stroke-opacity=".48"/>
+    <path d="M47 67h62m-62 0v38M48 320v23h62" fill="none" stroke="#a8ed6a" stroke-width="2"/>
+    <text x="69" y="149" fill="#f4f6f0" font-family="Segoe UI,Arial,sans-serif" font-size="68" font-weight="700" letter-spacing="-2">WAGNER</text>
+    <text x="66" y="230" fill="#f4f6f0" font-family="Segoe UI,Arial,sans-serif" font-size="97" font-weight="800" letter-spacing="-5">SILVA</text>
+    <text x="71" y="289" fill="#b2ec78" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="600">CEO / Desenvolvedor Full-Stack</text>
+    <rect x=".5" y=".5" width="1079" height="389" rx="11.5" fill="none" stroke="#5b754b"/>
   </g>
 </svg>
