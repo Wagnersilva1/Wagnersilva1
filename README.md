@@ -1,17 +1,25 @@
-# Wagner Silva
+![Wagner Silva — Desenvolvimento de software e automação](assets/profile-cover.svg)
 
-Desenvolvo sistemas para servidores FiveM e comunidades no Discord, com foco em ferramentas que simplificam a operação do dia a dia.
+Sou Wagner Silva. Desenvolvo sistemas para comunidades de jogos e para as equipes que as administram. Meu trabalho conecta o servidor FiveM, o Discord e aplicações web para que as equipes possam acompanhar atividades e operar a comunidade em um só fluxo.
 
-## O que eu desenvolvo
+## Projetos em destaque
 
-| Área | Exemplos |
-| --- | --- |
-| **FiveM e vRP** | Recursos de gameplay em Lua, eventos, painéis administrativos e integração com sistemas da cidade. |
-| **Discord** | Bots, comandos, fluxos de moderação e automações para equipes. |
-| **APIs e painéis web** | Serviços em Node.js, integrações REST e interfaces em React para acompanhar atividades e administrar operações. |
+### Sistemas para servidores FiveM
+
+Desenvolvo recursos em Lua sobre vRP, incluindo eventos no jogo, sistemas de recompensas e ferramentas administrativas. O trabalho envolve integrar a interface do jogador, as regras do servidor e o armazenamento dos dados.
+
+### Automação para equipes no Discord
+
+Crio bots e integrações para organizar chamados, acompanhar solicitações e automatizar tarefas de moderação. Os fluxos dão à equipe um histórico das ações e permitem tratar as solicitações dentro do Discord.
+
+### Painéis web e integrações
+
+Desenvolvo painéis para acompanhar a atividade do servidor e apoiar rotinas administrativas. Uso APIs para integrar as fontes de dados e interfaces em React para consultar registros, filtrar períodos e comparar indicadores.
 
 ## Tecnologias
 
-- **Linguagens** · JavaScript, TypeScript, Lua e Python
-- **Backend e integrações** · Node.js, APIs REST, Discord e vRP
-- **Interfaces** · React, Vite, HTML e CSS
+| Área | Ferramentas |
+| --- | --- |
+| Backend e integrações | JavaScript, TypeScript, Node.js, APIs REST |
+| Interfaces web | React, Vite, HTML e CSS |
+| Jogos e automação | Lua, FiveM, vRP, Discord e Python |
