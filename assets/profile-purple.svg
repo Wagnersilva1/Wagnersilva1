@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="992" height="330" viewBox="0 0 992 330" role="img" aria-labelledby="title">
+  <title id="title">Olá, eu sou Wagner Silva · CEO e Desenvolvedor Full-Stack</title>
+  <defs>
+    <radialGradient id="room" cx="86%" cy="76%" r="74%">
+      <stop stop-color="#472489"/>
+      <stop offset=".55" stop-color="#201437"/>
+      <stop offset="1" stop-color="#10121a"/>
+    </radialGradient>
+    <linearGradient id="screen" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#30204b"/>
+      <stop offset="1" stop-color="#110e1e"/>
+    </linearGradient>
+    <linearGradient id="deck" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#a976d9"/>
+      <stop offset="1" stop-color="#251735"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="992" height="330" rx="13"/></clipPath>
+    <filter id="glow" x="-30%" y="-45%" width="160%" height="190%">
+      <feGaussianBlur stdDeviation="5" result="light"/>
+      <feMerge><feMergeNode in="light"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="992" height="330" fill="url(#room)"/>
+    <path d="M613 291h379v39H513z" fill="#1b0d34"/>
+    <ellipse cx="803" cy="302" rx="163" ry="11" fill="#7d46c2" opacity=".3"/>
+    <g transform="translate(672 91)">
+      <path d="M35 185 81 30Q84 22 94 21L283 8Q294 7 290 19L247 177Z" fill="url(#screen)" stroke="#b77af6" stroke-width="3" filter="url(#glow)"/>
+      <g fill="none" stroke-linecap="round" stroke-width="3">
+        <path d="M94 51h34m-40 12h77m-80 12h51m-55 13h99m-104 12h73m-78 14h36m-40 13h55m-59 12h22" stroke="#ba79ff"/>
+        <path d="M139 51h22m15 12h15m-43 12h43m1 13h29m-62 12h24m-48 27h29" stroke="#73539d"/>
+      </g>
+      <path d="M35 185 247 177l44 13-15 10H21L8 193Z" fill="url(#deck)" stroke="#b47ae4"/>
+      <path d="m100 187 105-4 20 5H82Z" fill="#5e417d"/>
+    </g>
+    <path d="M653 260c-24-5-24 29-2 26" fill="none" stroke="#8a50cf" stroke-width="4"/>
+    <rect x="649" y="251" width="37" height="44" rx="7" fill="#20142d" stroke="#ba77fa"/>
+    <text x="35" y="82" fill="#b778ff" font-family="Consolas,monospace" font-size="46" font-weight="700">&lt;/&gt;</text>
+    <text x="34" y="150" fill="#f3f2f7" font-family="Segoe UI,Arial,sans-serif" font-size="46" font-weight="700">Olá, eu sou <tspan fill="#bf8bff">Wagner Silva</tspan></text>
+    <text x="36" y="198" fill="#ccc5db" font-family="Segoe UI,Arial,sans-serif" font-size="28">CEO · Desenvolvedor Full-Stack</text>
+    <path d="M36 244h65m8 0h18" stroke="#a96af0" stroke-width="2"/>
+    <text x="36" y="280" fill="#b9aec8" font-family="Segoe UI,Arial,sans-serif" font-size="19">Produto · Engenharia · Automação</text>
+    <rect x=".5" y=".5" width="991" height="329" rx="12.5" fill="none" stroke="#40354e"/>
+  </g>
+</svg>
